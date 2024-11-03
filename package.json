@@ -1,0 +1,21 @@
+{
+  "name": "datadummy-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "node ./apps/api/dist/main.js"
+  },
+  "keywords": [],
+  "author": "Lorman Romero",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.2.3"
+  },
+    "packageManager": "npm@10.8.2"
+
+}
